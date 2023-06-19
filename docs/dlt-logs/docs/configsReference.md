@@ -1,9 +1,11 @@
----
-id: configsReference
-title: dlt-logs.configs reference
-sidebar_label: Configs
----
 
-Configs allow to bundle a set of filters to ease the analysis of specific problems.
-
-todo...
+  ...
+  "payloadRegex": "Temp\\s+(?<temp0>.*)\\s(?<temp1>.*) deg",
+  "reportOptions": {
+    "yAxes": {
+      "^temp.*":{ // key name can be a regular expression as well
+      ...
+      }
+    }
+  }
+}
